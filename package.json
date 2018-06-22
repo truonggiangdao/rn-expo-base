@@ -14,10 +14,16 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.9.1",
-    "eslint-plugin-react-native": "^3.2.1"
+    "eslint-plugin-react-native": "^3.2.1",
+    "jest": "^23.1.0",
+    "jest-react-native": "^18.0.0"
   },
   "scripts": {
     "eslint": "eslint",
-    "lint": "npm run eslint ."
+    "lint": "npm run eslint .",
+    "test": "jest --silent"
+  },
+  "jest": {
+    "preset": "jest-react-native"
   }
 }
