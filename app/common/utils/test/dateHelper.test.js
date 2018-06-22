@@ -1,4 +1,4 @@
-import { formatDateTimeByString } from './dateHelper';
+import { formatDateTimeByString } from '../dateHelper';
 
 describe('dateHelper', () => {
   test('formatDateTimeByString', () => {

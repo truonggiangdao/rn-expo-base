@@ -1,7 +1,7 @@
 import {
   isSpecialCharacter,
   isNumericAndLetterCharacter
-} from './stringHelper';
+} from '../stringHelper';
 
 describe('stringHelper', () => {
   test('isSpecialCharacter', () => {
