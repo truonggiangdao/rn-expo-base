@@ -1,6 +1,6 @@
 import {
   isSpecialCharacter,
-  isNumericAndLetterCharacter
+  isNumericAndLetterCharacter,
 } from '../stringHelper';
 
 describe('stringHelper', () => {

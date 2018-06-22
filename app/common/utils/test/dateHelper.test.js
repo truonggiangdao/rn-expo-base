@@ -5,7 +5,7 @@ describe('dateHelper', () => {
     // success case
     expect(formatDateTimeByString(
       new Date('2018-01-20').toUTCString(),
-      'Y'
+      'Y',
     )).toBe('2018');
     // test fail case
     expect(formatDateTimeByString('', '')).toBe('');
