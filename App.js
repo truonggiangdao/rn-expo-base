@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { APP_BACKGROUND_COLOR } from './app/common/constants/color';
 
 export default class App extends React.Component {
   render() {
@@ -14,7 +15,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: APP_BACKGROUND_COLOR,
     alignItems: 'center',
     justifyContent: 'center',
   },

@@ -1,4 +1,4 @@
-import moment from 'moment'
+import moment from 'moment';
 
 /**
  * Format datetime
@@ -7,14 +7,15 @@ import moment from 'moment'
  * @returns {String} formatted datetime string. If got error, return an empty string.
  */
 function formatDateTimeByString(formatString, dateTime) {
+  let result;
   try {
-    const result = moment(dateTime).format(formatString)
-    return result
+    result = moment(dateTime).format(formatString);
   } catch (error) {
-    return ''
+    result = '';
   }
+  return result;
 }
 
-export const DateTimeHelper = {
+export default {
   formatDateTimeByString,
-}
+};

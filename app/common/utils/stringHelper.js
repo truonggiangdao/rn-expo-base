@@ -1,16 +1,17 @@
+/* eslint no-useless-escape: 0 */
+
 function isSpecialCharacter(str) {
-  return !/[~`!#$%@\^&*+=\-\[\]\\';,/{}()|\\":<>\?]/g.test(str)
+  return !/[~`!#$%@\^&*+=\-\[\]\\';,/{}()|\\":<>\?]/g.test(str);
 }
 
 function isNumericAndLetterCharacter(str) {
   if (str !== '') {
-    return /^[0-9a-zA-Z]+$/g.test(str)
-  } else {
-    return true
+    return /^[0-9a-zA-Z]+$/g.test(str);
   }
+  return true;
 }
 
-export const StringHelper = {
+export default {
   isSpecialCharacter,
   isNumericAndLetterCharacter,
-}
+};
