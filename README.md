@@ -36,3 +36,21 @@
 > `npm i`
 
 7. Open Expo XDE on your PC and run this project
+
+## III. Coding Convention
+
+This project is setted up with following Style guides:
+
+* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+* [Eslint Plugin React](https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules)
+* [Eslint Plugin React Native](https://github.com/Intellicode/eslint-plugin-react-native#list-of-supported-rules)
+
+To run code checking (linting):
+
+> `npm run lint`
+
+## IV. Unit testing
+
+Each components in your project should have a test file. Naming convention: `yourComponent.test.js` where `yourComponent` is the name of the component you are writing test for. To run unit test:
+
+> `npm run test`
