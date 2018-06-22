@@ -6,7 +6,7 @@ const restApi = axios.create({
   baseURL: API_URL,
   headers: {
     post: {
-      'content-type': 'application/x-www-form-urlencoded'
+      'content-type': 'application/x-www-form-urlencoded',
     },
   },
 });
